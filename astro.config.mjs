@@ -43,4 +43,6 @@ export default defineConfig({
 			],
 		}),
 	],
+	site: 'https://10rin0.github.io',
+	base: '/takodoc',
 });
