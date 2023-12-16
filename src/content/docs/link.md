@@ -76,7 +76,7 @@ faviconジェネレーター。ファビコンを簡単に生成できます。
 - [10press](https://10prs.com/)  
 - [メモモモモ](https://roastea.deca.jp/memo/)  
 - [htrkwn](https://www.nememori.info)  
-- [テキストエディタで個人サイトをつくろう！](https://sitetsukurou.x0.com/info)  
+- [テキストエディタで個人サイトをつくろう！](https://sitetsukurou.x0.com/)  
 - [ぽるか座](https://paddyportfolio.com/template/)  
 - [Kopfkino](https://kopf-kino.vercel.app)  
 - [ふしぎ文庫](https://hushigi-library.sub.jp/)

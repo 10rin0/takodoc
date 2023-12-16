@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import { tuple } from 'astro/zod';
 
 // https://astro.build/config
 export default defineConfig({
@@ -41,6 +42,8 @@ export default defineConfig({
 					autogenerate: { directory: 'omake' },
 				},
 			],
+			favicon: '/favicon.ico',
+			lastUpdated: true,
 		}),
 	],
 	site: 'https://10rin0.github.io',
