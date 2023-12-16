@@ -1,0 +1,27 @@
+:root {
+    --sl-color-accent: #61c1be !important;
+    --sl-color-accent-high: #ea616f !important;
+    --sl-color-accent-low: var(--sl-color-white);
+}
+
+.hero {
+    & img {
+        border-radius: 50%;
+        overflow: hidden;
+        object-fit: cover;
+    }
+}
+
+.action {
+    border-radius: 10px;
+    font-size: 1.2em;
+}
+
+footer a {
+    padding: 0.4rem 1rem;
+    box-shadow: none;
+}
+
+.link-title {
+    font-size: 1.2rem;
+}
