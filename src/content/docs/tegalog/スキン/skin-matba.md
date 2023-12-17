@@ -4,6 +4,21 @@ sidebar:
   # このリンクの順番をカスタマイズします（数字が小さいほど上に表示されます）
   order: 2
 ---
+
+:::note[更新]
+2023/12/17 下記のファイルを更新しています。
+```html ins="loading="lazy""
+<!--skin-cover.html-->
+		<iframe title="画像リスト" src="?mode=admin&work=images" frameborder="0" loading="lazy"></iframe>
+```
+読み込みの遅延をする`loading="lazy"`を追加。
+画像の管理画面をiframeで読み込む際、未ログイン状態の時ログインフォームにフォーカスされる問題に対応。
+(スマートフォンでキーボードがポップアップしてしまうため)
+
+その他軽微な修正を行っております。
+GitHubの[変更履歴（コミット）](https://github.com/10rin0/skin-matuba/commit/0074045531ab0e49d2bdbe71bd8e76af698efd91)をご確認ください。
+:::
+
 ## 概要
 たこつぼくらぶ にて配布しているてがろぐスキンです。 
 一覧表示だと付箋っぽい表示 ~~（Scrapbox意識）~~ のスキン、
@@ -18,9 +33,8 @@ sidebar:
 
 てがろぐバージョンはVer 4.1.4 beta版で確認しています。
 
-:::caution
-【注意事項】  
-一部**Ver 4.1.4**以降で使用できる`[[IF(条件): ～中身～ :IF]]`、`[[USERINTRO]] `や`[[USERINTRO]]`を使用していますので、
+:::caution[対応バージョン]
+一部**Ver 4.1.4**以降で使用できる`[[IF(条件): ～中身～ :IF]]`、`[[USERINTRO]]`や`[[USERINTRO]]`を使用していますので、
 対応バージョンでご利用いただくか、該当部分を変更してご利用ください。
 
 CSSで、一部`:has()`を使用しています。[一部のブラウザ](https://caniuse.com/css-has)では正常に動作しない可能性がありますのでご注意ください。
